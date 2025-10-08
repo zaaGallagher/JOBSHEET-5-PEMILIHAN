@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class IfElseCetakKRS17 {
+public class cetakKRS17 {
 
     public static void main(String[] args) {
         
