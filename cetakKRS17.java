@@ -9,12 +9,13 @@ public class cetakKRS17 {
         System.out.println("Apakah ukt sudah lunas? (true/false): ");
         boolean uktLunas = sc.nextBoolean();
 
-        if (uktLunas) {
-            System.out.println("Pembayaran UKT Terferivikasi");
-            System.out.println(" Silahkan cetak KRS dan minta ttd DPA");
-          
-            }
-
+        // if (uktLunas) {
+        //     System.out.println("Pembayaran UKT Terferivikasi");
+        //     System.out.println(" Silahkan cetak KRS dan minta ttd DPA");
+        // } else{  
+        //  System.out.println("Regulasi ditolak slahkan lunasi UKT terlebih dahulu");
+        //}
+        System.out.println(uktLunas ? "Pembayaran UKT terferivikasi\nsilahkan cetak KRS dan minta ttd DPA" : "Regulasi ditolak slahkan lunasi UKT terlebih dahulu");
     }
     
 }
