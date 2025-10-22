@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class nestedUjianSkripsi17 {
     
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -15,7 +18,9 @@ public class nestedUjianSkripsi17 {
         System.out.println("Masukkan jumlah log bimbingan Pembimbing 2: ");
         int bimbinganP2 = sc.nextInt();
 
+        //equalsIgnoreCase() membandingkan dua variabel tanpa membedakan huruf besar/kecil.
         if (bebasKompen.equalsIgnoreCase("Ya")) {
+            //&& kedua syarat harus terpenuhi.
             if(bimbinganP1 >= 8 && bimbinganP2 >= 4) {
                 pesan = "Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi";
             } else if (bimbinganP1 < 8 && bimbinganP2 < 4) {

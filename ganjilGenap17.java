@@ -6,7 +6,7 @@ public class ganjilGenap17 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Masukkan Angka = ");
+        System.out.print("; Angka = ");
 
         int angka = sc.nextInt();
 
